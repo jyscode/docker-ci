@@ -1,0 +1,7 @@
+version: '3.8'
+servies:
+webserver:
+  image: readytodev/jenkins-ci:1.0
+  ports:
+    - "3000:3000"
+
